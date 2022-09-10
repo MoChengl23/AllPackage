@@ -1,8 +1,8 @@
-
+@echo off
 
 set /p mes=commit mes:  
 
-echo %mes%
+ 
  
 D:\my\Git\bin\git.exe add .
 
