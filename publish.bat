@@ -1,18 +1,20 @@
- 
-SET PackageName= ump_FixedMath
- 
-SET Version = 1.0.1
- 
-SET  Path= Packages\FixedMath
-
- 
-D:\my\Git\bin\git.exe subtree split -P %Path% --branch %PackageName%
- 
-D:\my\Git\bin\git.exe tag %Version% %PackageName%
 
 
-D:\my\Git\bin\git.exe push origin %PackageName% %Version%
-D:\my\Git\bin\git.exe push origin %PackageName%
+set /p mes=commit mes:  
+
+echo %mes%
+ 
+D:\my\Git\bin\git.exe add .
+
+ 
+D:\my\Git\bin\git.exe commit -m "%mes%"
+
+D:\my\Git\bin\git.exe subtree --prefix=Packages/FixedMath push git@github.com:MoChengl23/FixexMathPackage.git master
+
+D:\my\Git\bin\git.exe push -u origin master
+
+
+ 
 
 
 pause
