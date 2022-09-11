@@ -9,12 +9,12 @@ D:\my\Git\bin\git.exe add .
  
 D:\my\Git\bin\git.exe commit -m "%mes%"
 
-echo push MoChengFixedMath
+echo -------push MoChengFixedMath-------
 D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengFixedMath push git@github.com:MoChengl23/MoChengFixdMath.git master
-echo push MoChengFixedMath
+echo -------push MoChengFixedMath-------
 D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengHttp push git@github.com:MoChengl23/MoChengHTTP.git main
 
-echo push MoChengZip
+echo -------push MoChengZip-------
 D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengZip push git@github.com:MoChengl23/MoChengCompress.git main
 
 D:\my\Git\bin\git.exe push -u origin master
