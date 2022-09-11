@@ -1,0 +1,23 @@
+{
+    "name": "com.mocheng.zip",
+    "version": "0.0.1",
+    "displayName": "MoChengZIP",
+    "description": "MoChengZIP",
+    "unity": "2021.3",
+    
+ 
+    "dependencies": {
+ 
+   },
+   "keywords": [
+      "mocheng",
+      "tool"
+ 
+    ],
+    "author": {
+      "name": "MoCheng",
+      "email": "mochenghh@gmail.com"
+     
+    }
+  }
+  
