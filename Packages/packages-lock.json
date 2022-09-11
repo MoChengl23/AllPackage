@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.mocheng.http": {
+      "version": "file:MoChengHttp",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.mochenghh.fixedmath": {
       "version": "file:FixedMath",
       "depth": 0,
