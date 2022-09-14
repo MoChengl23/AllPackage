@@ -6,8 +6,14 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.mocheng.zip": {
+      "version": "file:MoChengZip",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.mochenghh.fixedmath": {
-      "version": "file:FixedMath",
+      "version": "file:MoChengFixedMath",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
