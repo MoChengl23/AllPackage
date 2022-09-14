@@ -17,6 +17,11 @@ D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengHttp push git@github.com:
 echo ------------push MoChengZip------------
 D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengZip push git@github.com:MouseChannle/MoChengCompress.git master
 
+echo ------------push MoChengClientNet------------
+D:\my\Git\bin\git.exe subtree --prefix=Packages/MoChengClientNet push git@github.com:MouseChannle/MoChengClientNet.git master
+
+
+
 D:\my\Git\bin\git.exe push -u origin master
 
 
